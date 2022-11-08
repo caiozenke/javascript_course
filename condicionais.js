@@ -22,11 +22,11 @@ else{
 
 var n1 = 7
 var n2 = 4
-var n3 = 2
+var n3 = 5
 
 var media_aluno = (n1 + n2 + n3) / 3
 
-
+/*
 if (media_aluno > 10){
     alert('Erro Media Invalida');
 }
@@ -36,3 +36,10 @@ else if (media_aluno >= 6){
 else{
     document.write('Aluno Reprovado')
 }
+*/
+// ou podemos usar assim
+
+
+var resultado = media_aluno >= 6 ? 'aprovado' : 'reprovado'
+
+document.write(resultado)
